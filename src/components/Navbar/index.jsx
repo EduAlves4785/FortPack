@@ -14,10 +14,10 @@ export const Navbar = () => {
           </Link>
         </div>
         <div className="itens-nav">
-            <Link to="/">Home</Link>
-            <Link to="/sobre">Sobre nós</Link>
-            <Link to="/clientes">Clientes</Link>
-            <Link to="/contato">Contato</Link>
+            <Link to="/FortPack">Home</Link>
+            <Link to="/FortPack/sobre">Sobre nós</Link>
+            <Link to="/FortPack/clientes">Clientes</Link>
+            <Link to="/FortPack/contato">Contato</Link>
         </div>
         <MenuHamburger/>
     </Nav>

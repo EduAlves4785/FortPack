@@ -15,19 +15,19 @@ import { Contato } from './pages/Contato/index.jsx';
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/FortPack",
     element: <Home/>,
   },
   {
-    path:"/sobre",
+    path:"/FortPack/sobre",
     element:<Sobre/>
   },
   {
-    path:"/clientes",
+    path:"/FortPack/clientes",
     element:<Clientes/>
   },
   {
-    path:"/contato",
+    path:"/FortPack/contato",
     element:<Contato/>
   }
 ]);

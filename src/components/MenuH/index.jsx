@@ -20,10 +20,10 @@ export const MenuHamburger = () => {
         </label>
             <div id="menu" className={menuOpen ? 'open' : ''}>
                 <ul>
-                    <li><Link to="/">Home</Link></li>
-                    <li><Link to="/sobre">Sobre nós</Link></li>
-                    <li><Link to="/clientes">Clientes</Link></li>
-                    <li><Link to="/contato">Contato</Link></li>
+                    <li><Link to="/FortPack">Home</Link></li>
+                    <li><Link to="/FortPack/sobre">Sobre nós</Link></li>
+                    <li><Link to="/FortPack/clientes">Clientes</Link></li>
+                    <li><Link to="/FortPack/contato">Contato</Link></li>
                 </ul>
             </div>
     </Menu>
