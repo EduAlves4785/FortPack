@@ -140,7 +140,8 @@ export const Empresa = styled.div`
   @media screen and (max-width: 780px) {
     & {
       flex-direction: column;
-      height: 38rem;
+      height: auto;
+      margin-bottom: 1.5rem;
       text-align: center;
     }
 
