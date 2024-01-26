@@ -8,7 +8,7 @@ export const Navbar = () => {
   return (
     <Nav>
         <div className='nav-logo'>
-          <Link to='/'>
+          <Link to='/FortPack'>
             <MdFactory fontSize={40} color='#e36414'/>
             <h1>FortPack</h1>
           </Link>
