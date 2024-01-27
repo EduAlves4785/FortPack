@@ -17,7 +17,7 @@ export const Home = () => {
         <div className="conteudo-sobreposto">
           <h1>Embalagens de qualidade</h1>
           <p>Unindo praticidade e estilo para atender às suas necessidades</p>
-          <button ><Link to="/contato">Entre em contato</Link></button>
+          <button ><Link to="/FortPack/contato">Entre em contato</Link></button>
         </div>
       </SobreDiv>
       <Empresa>
